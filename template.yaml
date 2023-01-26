@@ -75,6 +75,7 @@ spec:
            content-type: 'application/json'
          body:
            app_name: ${{ parameters.component_id }}
+           repo_owner: ${{ parameters.repoproject }}
 
     - id: register
       name: Register
